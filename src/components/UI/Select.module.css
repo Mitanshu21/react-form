@@ -1,0 +1,23 @@
+select {
+  min-width: 100%;
+  max-width: 100%;
+  margin: 5px 0 0 0;
+  padding: 15px;
+  margin-left: 3px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background: #f7f7f7;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+select option {
+  font-size: medium;
+}
+
+.error {
+  margin-top: 2px;
+  padding-left: 2px;
+  margin-bottom: 10px;
+  color: red;
+  font-size: small;
+}

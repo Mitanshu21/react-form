@@ -1,0 +1,33 @@
+input {
+  min-width: 100%;
+  max-width: 100%;
+  padding: 15px;
+  margin: 5px 0 0 0;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  display: inline-block;
+  background: #f7f7f7;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.input_error {
+  border: 1px solid red;
+}
+
+.error {
+  margin-top: 2px;
+  padding-left: 2px;
+  margin-bottom: 10px;
+  color: red;
+  font-size: small;
+}
+
+.emptyerr {
+  margin: 27px 2px;
+}
+
+input:focus,
+select:focus {
+  background-color: #ddd;
+  outline: none;
+}
